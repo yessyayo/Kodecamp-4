@@ -239,6 +239,7 @@ header .navbar{
         display: grid;
         grid-template-columns: 305px 305px;
         max-width: 768px;
+        
     }
     .icon .calendar, .couch, .wifi, .chat{
         width: 305px;
@@ -329,6 +330,7 @@ header .navbar{
     .section2 .img img{
        max-width: 173px;
     }
+    
     .section2 .flex{
         width: 343px;
         height: 232px;
@@ -346,6 +348,7 @@ header .navbar{
     .feature{
         max-width: 375px;
         padding: 0px 16px;
+        margin-left: 20px;
     }
     .txt{
         max-width: 343px;
@@ -361,7 +364,7 @@ header .navbar{
     .txt p{
         max-height: 80px;
         font-size: 14px;
-        line-height: 20px;
+        line-height: 18px;
     }
     .icon{
         display: flex;

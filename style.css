@@ -343,7 +343,7 @@ header .navbar{
     }
     .flex p{
         font-size: 16px;
-        line-height: 20px;
+        line-height: 16px;
     }
     .feature{
         max-width: 375px;

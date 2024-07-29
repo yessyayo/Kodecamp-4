@@ -34,18 +34,20 @@ header .navbar{
     width: 130px;
     height: 53px;
 }
-.nav ul li{
-    display: inline;
-    padding-left: 40px;
+.nav ul{
+    display: flex;
+    list-style: none;
 }
-.nav a{
+.nav li a{
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
+    padding-left: 40px;
     color: #181A18;
 }
-.hamburger{
+.hamburger span{
     display: none;
+    font: 30px;
 }
 .section1 .text{
     position: absolute;
@@ -170,9 +172,6 @@ header .navbar{
        max-width: 130px;
         max-height: 53px;
     }
-    .hamburger{
-        display: none;
-    }
     .section1 .img1 img{
         max-width: 768px;
     }
@@ -277,14 +276,24 @@ header .navbar{
     .logo img{
         width: 80px;
     } 
-    .nav{
+    .nav ul{
         display: none;
+        flex-direction: row;
+        max-width: 80%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: center;
     }
-    .hamburger{
+    .navbar ul.show {
         display: flex;
-        max-width: 24px;
-        max-height: 24px;
-        padding: 2.5px 0.5px 2.5px 0.5px;
+    }
+    .navbar li a{
+        padding-left: 20px;
+    }
+    .hamburger span{
+        display: block;
+        color: red;
     } 
     .section1 .img1 img{
         max-width: 375px;

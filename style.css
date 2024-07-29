@@ -293,7 +293,7 @@ header .navbar{
     }
     .hamburger span{
         display: block;
-        color: red;
+        font-size: 40px;
     } 
     .section1 .img1 img{
         max-width: 375px;

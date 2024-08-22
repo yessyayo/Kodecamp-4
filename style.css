@@ -82,6 +82,11 @@ header .navbar{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+img:nth-child(3){
+    border-radius:0 0 0 60px;
+}
+
 .section2 .flex{
     padding: 120px 80px;
     border-radius: 0px 60px 60px 0px;
@@ -338,6 +343,13 @@ header .navbar{
     }
     .section2 .img img{
        max-width: 173px;
+    }
+    
+    img:nth-child(2){
+        border-radius: 0 20px 0 0;
+    }
+    img:nth-child(3){
+         border-radius:0;
     }
     
     .section2 .flex{
